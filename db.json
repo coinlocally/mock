@@ -1,0 +1,68 @@
+{
+  "academies":{
+  "data": [
+    {
+      "icon": "/path/to/icon1.png",
+      "title": "Sample Event 1",
+      "isClaimed": true,
+      "date": "2024-12-12T10:00:00Z",
+      "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "description": "This is a sample description of the first event.",
+      "question": {
+        "type": 1,
+        "items": [
+          {
+            "id": 1,
+            "value": "answer1"
+          }
+        ]
+      },
+      "isCompleted": false,
+      "status": "activate",
+      "category": "Technology"
+    },
+    {
+      "icon": "/path/to/icon2.png",
+      "title": "Sample Event 2",
+      "isClaimed": false,
+      "date": "2024-12-14T14:30:00Z",
+      "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "description": "Description for the second event with additional information.",
+      "question": {
+        "type": 1,
+        "items": [
+          {
+            "id": 1,
+            "value": "answera"
+          }
+        ]
+      },
+      "isCompleted": true,
+      "status": "deactivate",
+      "category": "Health"
+    },
+    {
+      "icon": "/path/to/icon3.png",
+      "title": "Sample Event 3",
+      "isClaimed": true,
+      "date": "2024-12-16T16:00:00Z",
+      "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "description": "An informative event description for the third sample.",
+      "question": {
+        "type": 1,
+        "items": [
+          {
+            "id": 1,
+            "value": "answerx"
+          }
+        ]
+      },
+      "isCompleted": false,
+      "status": "activate",
+      "category": "Education"
+    }
+  ],
+  "errors": null
+}
+
+}
