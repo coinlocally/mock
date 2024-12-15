@@ -31,7 +31,8 @@
       },
       "isCompleted": false,
       "status": "activate",
-      "category": "Technology"
+      "category": "Technology".
+      "reward" : 100
     },
     {
       "icon": "/path/to/icon2.png",
@@ -63,7 +64,8 @@
       },
       "isCompleted": true,
       "status": "deactivate",
-      "category": "Health"
+      "category": "Health",
+      "reward" : 50000
     },
     {
       "icon": "/path/to/icon3.png",
@@ -95,7 +97,8 @@
       },
       "isCompleted": false,
       "status": "activate",
-      "category": "Education"
+      "category": "Education",
+      "reward" : 8000
     }
   ],
   "errors": null
