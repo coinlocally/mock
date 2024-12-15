@@ -4,7 +4,6 @@
       {
         "icon": "/path/to/icon1.png",
         "title": "Sample Event 1",
-        "isClaimed": true,
         "date": 1702387200,
         "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "description": "This is a sample description of the first event.",
@@ -37,7 +36,6 @@
       {
         "icon": "/path/to/icon2.png",
         "title": "Sample Event 2",
-        "isClaimed": false,
         "date": 1702671600,
         "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "description": "Description for the second event with additional information.",
@@ -70,7 +68,6 @@
       {
         "icon": "/path/to/icon3.png",
         "title": "Sample Event 3",
-        "isClaimed": true,
         "date": 1702854400,
         "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "description": "An informative event description for the third sample.",
