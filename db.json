@@ -1,107 +1,106 @@
 {
-  "academies":{
-  "data": [
-    {
-      "icon": "/path/to/icon1.png",
-      "title": "Sample Event 1",
-      "isClaimed": true,
-      "date": 1702387200,
-      "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "description": "This is a sample description of the first event.",
-      "question": {
-        "type": 1,
-        "items": [
-          {
-            "id": 1,
-            "value": "answer1"
-          },
-          {
-            "id": 2,
-            "value": "answer2"
-          },
-          {
-            "id": 3,
-            "value": "answer3"
-          },
-          {
-            "id": 4,
-            "value": "answer4"
-          }
-        ]
+  "academies": {
+    "data": [
+      {
+        "icon": "/path/to/icon1.png",
+        "title": "Sample Event 1",
+        "isClaimed": true,
+        "date": 1702387200,
+        "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "This is a sample description of the first event.",
+        "question": {
+          "type": 1,
+          "items": [
+            {
+              "id": 1,
+              "value": "answer1"
+            },
+            {
+              "id": 2,
+              "value": "answer2"
+            },
+            {
+              "id": 3,
+              "value": "answer3"
+            },
+            {
+              "id": 4,
+              "value": "answer4"
+            }
+          ]
+        },
+        "isCompleted": false,
+        "status": "activate",
+        "category": "Technology",
+        "reward": 100
       },
-      "isCompleted": false,
-      "status": "activate",
-      "category": "Technology",
-      "reward" : 100
-    },
-    {
-      "icon": "/path/to/icon2.png",
-      "title": "Sample Event 2",
-      "isClaimed": false,
-      "date": 1702671600,
-      "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "description": "Description for the second event with additional information.",
-      "question": {
-        "type": 1,
-        "items": [
-          {
-            "id": 1,
-            "value": "answera"
-          },
-          {
-            "id": 2,
-            "value": "answerb"
-          },
-          {
-            "id": 3,
-            "value": "answerc"
-          },
-          {
-            "id": 4,
-            "value": "answerd"
-          }
-        ]
+      {
+        "icon": "/path/to/icon2.png",
+        "title": "Sample Event 2",
+        "isClaimed": false,
+        "date": 1702671600,
+        "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "Description for the second event with additional information.",
+        "question": {
+          "type": 1,
+          "items": [
+            {
+              "id": 1,
+              "value": "answera"
+            },
+            {
+              "id": 2,
+              "value": "answerb"
+            },
+            {
+              "id": 3,
+              "value": "answerc"
+            },
+            {
+              "id": 4,
+              "value": "answerd"
+            }
+          ]
+        },
+        "isCompleted": true,
+        "status": "deactivate",
+        "category": "Health",
+        "reward": 50000
       },
-      "isCompleted": true,
-      "status": "deactivate",
-      "category": "Health",
-      "reward" : 50000
-    },
-    {
-      "icon": "/path/to/icon3.png",
-      "title": "Sample Event 3",
-      "isClaimed": true,
-      "date": 1702854400,
-      "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "description": "An informative event description for the third sample.",
-      "question": {
-        "type": 1,
-        "items": [
-          {
-            "id": 1,
-            "value": "answerx"
-          },
-          {
-            "id": 2,
-            "value": "answery"
-          },
-          {
-            "id": 3,
-            "value": "answerz"
-          },
-          {
-            "id": 4,
-            "value": "answerw"
-          }
-        ]
-      },
-      "isCompleted": false,
-      "status": "activate",
-      "category": "Education",
-      "reward" : 8000
-    }
-  ],
-  "errors": null
-}
-
+      {
+        "icon": "/path/to/icon3.png",
+        "title": "Sample Event 3",
+        "isClaimed": true,
+        "date": 1702854400,
+        "videoLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": "An informative event description for the third sample.",
+        "question": {
+          "type": 1,
+          "items": [
+            {
+              "id": 1,
+              "value": "answerx"
+            },
+            {
+              "id": 2,
+              "value": "answery"
+            },
+            {
+              "id": 3,
+              "value": "answerz"
+            },
+            {
+              "id": 4,
+              "value": "answerw"
+            }
+          ]
+        },
+        "isCompleted": false,
+        "status": "activate",
+        "category": "Education",
+        "reward": 8000
+      }
+    ],
+    "errors": null
+  }
 }
